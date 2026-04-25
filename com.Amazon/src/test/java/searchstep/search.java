@@ -30,7 +30,7 @@ public class search {
 	@Then("user see the expected result")
 	public void user_see_the_expected_result() {
 		driver.findElement(By.xpath("//input[@id=\"nav-search-submit-button\"]")).click();
-	    driver.close();
+	    driver.quite();
 	}
 }
 
